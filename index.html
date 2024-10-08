@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sivabalan - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--s
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ 
+  <video class="video-background" autoplay muted loop playsinline>
+    <source src="./assets/images/v2.mp4" type="video/mp4">
+    <!-- Add a fallback message in case the video doesn't load -->
+    Your browser does not support the video tag.
+</video>
+  <!--
+    - #MAIN
+  -->
+ 
+
+  <main>
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Icon Example</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <div id="loading-screen">
+      <h1>SIVABALAN</h1>
+      <div class="loader"></div>
+    </div>
+    
+    <div id="main-content" style="display: none;">
+      <!-- Your main portfolio content goes here -->
+    </div>
+  
+    <script src="script.js"></script>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Sivabalan.jpeg" alt="Sivabalan T" width="80">
+          
+        </figure>
+        
+
+       
+                      
+        
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Sivabalan T</h1>
+
+          <p class="title">Electrical Engineer</p>
+
+                   
+          </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sivabalant38@gmail.com" class="contact-link">sivabalant38@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 8668153981" class="contact-link">+91 8668153981</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-11-19">Nov 19, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pattukkottai, Thanjavur, <br> Tamil Nadu, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/@SPark_Studio_S" class="social-link" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+        </li>
+        
+        <li class="social-item">
+            <a href="https://github.com/Sivabalan-T" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
+    
+           <li class="social-item">
+              <a href="https://linkedin.com/in/sivabalant03" class="social-link" target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+          </li>
+      
+          <li class="social-item">
+              <a href="https://www.twitter.com/@Sivabalan_t38" class="social-link" target="_blank">
+                  <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+          </li>
+         
+        </ul>
+      
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item">
+                <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+            <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Achivements</button>
+            </li>
+            <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>YouTube</button>
+            </li>
+            <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+            
+          
+        </ul>
+    </nav>
+
+    
+    
+    
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+    <header>
+        <h2 class="h3 article-title">About Me</h2>
+    </header>
+   
+    <section class="about-text justified">
+  <p>
+    <strong class="h5 for-title">Hello! I'm Sivabalan</strong>, an <strong class="h5 for-title">Electrical and Electronics Engineer</strong> specializing in <strong class="h5 for-title">MEP systems</strong> 
+    and <strong class="h5 for-title">circuit design</strong>. With a degree in <strong class="h5 for-title">Electrical and Electronics Engineering</strong>, I've developed 
+    expertise in <strong class="h5 for-title">Revit Architecture</strong>, <strong class="h5 for-title">Revit MEP</strong>, and <strong class="h5 for-title">AutoCAD Electrical</strong>, exploring innovative design 
+    solutions and efficient system integrations through my projects.
+  </p>
+
+  <p>
+    I'm committed to delivering high-quality work that balances functionality with aesthetics. 
+    Outside of engineering, I enjoy content creation and run a YouTube channel where I teach 
+    AutoCAD, Revit, and other design software, sparking creativity and sharing knowledge.
+  </p>
+
+  <p>
+    Thank you for visiting my portfolio! I'm always open to connecting and exploring collaboration opportunities, so please feel free to reach out.
+
+</section>
+
+<header>
+  <h2 class="h3 article-title">My journey</h2>
+</header>
+
+<section class="about-text justified">
+  <p>
+    I graduated in <strong class="h5 for-title">Electrical and Electronics Engineering</strong> with a CGPA of <strong class="h5 for-title">8.5</strong>. My passion for technology and 
+    design led me to focus on <strong class="h5 for-title">Revit Architecture</strong>, <strong class="h5 for-title">Revit MEP</strong>, <strong class="h5 for-title">AutoCAD Electrical</strong>, and <strong class="h5 for-title">embedded systems</strong>. Throughout my academic 
+    journey, I completed various projects, which strengthened my practical skills in these areas. 
+    Currently, as a <strong class="h5 for-title">Software Trainer and Developer</strong>, I train students in Revit, AutoCAD, and embedded 
+    systems, aiming to provide hands-on experiences that empower them with industry-relevant skills.
+  </p>
+
+ </section>
+    
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/do.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Revit MEP</h4>
+
+                 <p class="service-item-text">
+                  Accurate designs for electrical, mechanical, and plumbing systems in Revit.
+                </p>
+                
+              </div>
+
+            </li>
+
+                        <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/do.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AutoCAD Electrical</h4>
+
+                <p class="service-item-text">
+                  Precise electrical schematics and layouts using AutoCAD.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/do.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">project management</h4>
+
+                <p class="service-item-text">
+                  Effective project management using MS Office tools to ensure timely and organized project delivery.
+                </p>
+              </div>
+
+            </li>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/do.png" alt="Embedded Syastem icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Revit Architecture</h4>
+
+              <p class="service-item-text">
+                Detailed architectural models using Revit for streamlined construction processes.
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/do.png" alt="camera icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">PCB design</h4>
+
+              <p class="service-item-text">
+                Professional PCB design services focusing on reliable and compact layouts.
+              </p>
+            </div>
+
+          </li>
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/do.png" alt="camera icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Content Creation</h4>
+
+              <p class="service-item-text">
+                YouTube tutorials on AutoCAD, Revit, and design software to share knowledge and enhance skills.
+              </p>
+            </div>
+
+          </li>
+
+          </ul>
+
+        </section>
+
+
+        
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            </section>
+
+        </div>
+
+     </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        
+        <header>
+          
+          <h2 class="h3 article-title">Resume </a></h2>
+                  
+        </header>
+        
+        
+
+        <section class="timeline">
+          
+
+
+          <div class="title-wrapper">
+            
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education </h3>
+            <button class="form-btn" type="button" data-form-btn onclick="window.location.href='./assets/images/Resume.pdf'">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Resume</span>
+          </button>
+            
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Engineering in Electrical and Electronics Engineering (EEE)</h4>
+
+              <p class="timeline-text">Anna University</p>
+                <span>CGPA: 8.5</span>
+                <p class="timeline-text">2020 — 2024</P>
+              
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Higher Secondary Education (HSE)</h4>
+
+              <p class="timeline-text">GHSS Alathur</p>
+                <p class="timeline-text">2018 — 2020</P>
+              
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Secondary School Leaving Certificate (SSLC)</h4>
+
+              <p class="timeline-text">GHSS Alathur
+                </p>
+                <p class="timeline-text">2016 — 2018</P>
+              
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Trainer and Developer</h4>
+
+              <span>2024 — Present</span>
+
+              <p  class="timeline-text">
+                Develop and deliver training programs in Revit, AutoCAD, and embedded systems,
+                enhancing student skills through hands-on projects and comprehensive learning materials
+            </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Electrical Maintenance and Testing Intern</h4>
+              <h4 class="timeline-text">Operation and Maintenance of 230/11 kV Substation & Electrical Equipment Testing in Mine II</h4>
+          
+              <span>Internship Duration: 1 Month</span>
+          
+              <p  class="timeline-text">
+                <ul class="timeline-text">
+                  <p style="margin-bottom: 10px;">
+                    <li>● <strong>Experience:</strong>  Operated and maintained a 230/11 kV substation.</li>
+                    <li>● <strong>Electrical Equipment Focus:</strong> Engaged with mining sector electrical systems.</li>
+                    <li>● <strong>Safety Practices:</strong> Ensured safe and reliable power distribution.</li>
+                    <li>● <strong>Testing Knowledge:</strong> Learned electrical equipment testing procedures.</li></p>
+              </ul>
+              </p>
+          </li>
+          
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Personal Projects in Design and Engineering</h4>
+              
+              <p class="timeline-text">
+                <ul class="timeline-text">
+                  <p style="margin-bottom: 10px;">
+                <li>● <strong>Personal Projects:</strong> Developed and executed projects utilizing Revit MEP, Revit Architecture, AutoCAD Electrical, and embedded systems.</li>
+                <li>● <strong>Practical Application:</strong> Demonstrated hands-on proficiency in AutoCAD through innovative design and implementation.</li>
+                <li>● <strong>Skill Enhancement:</strong> Significantly improved technical skills and project management capabilities.</li></p>
+                </ul>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="service">
+          
+
+          <h3 class="h3 service-title">My Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+
+              <div class="service-icon-box">
+                <img src="./assets/images/do.png" alt="camera icon" width="21">
+                 </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technocal Skills</h4>
+                <p class="timeline-text">
+                  <ul>
+                   
+                  <li class="timeline-text">● Revit</li>
+                  <li class="timeline-text">● AutoCAD</li>                  
+                  <li class="timeline-text">● Navisworks</li>
+                  <li class="timeline-text">● BIM (Building Information Modeling)</li>
+                  <li class="timeline-text">● Embedded systems</li>
+                  <li class="timeline-text">● PCB Design</li>
+                  <li class="timeline-text">● Fusion 360</li>
+                </ul>
+
+                </p>
+                                 
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+
+              <div class="service-icon-box">
+                <img src="./assets/images/do.png" alt="camera icon" width="20">
+                 </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technocal Skills</h4>
+                <p class="timeline-text">
+                  <ul>  
+
+                  <li class="timeline-text">● Project management</li>
+                  <li class="timeline-text">● Problem-solving</li>                  
+                  <li class="timeline-text">● Team collaboration</li>
+                  <li class="timeline-text">● Leadership</li>
+                  <li class="timeline-text">● Time management</li>
+                  <li class="timeline-text">● Curriculum development</li>
+                  <li class="timeline-text">● Adaptability</li>
+                </ul>
+
+                </p>
+                                 
+              </div>
+
+            </li>
+
+            
+          </ul>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+       <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Revit</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AutoCAD</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Embedded system</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>PCB Design</button>
+            </li>
+
+            <li class="select-item">
+              <a href="https://github.com/Sivabalan-T/Embedded-Projects">
+              <button data-select-item>More</button></a>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Revit</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AutoCAD</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Embedded system</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>PCB Design</button>
+              </li>
+
+             </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="revit">
+              <a href="./assets/images/project-7.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Architecture</h3>
+
+                <p class="project-category">Revit</p>
+
+              </a>
+            </li>
+
+           
+            <li class="project-item  active" data-filter-item data-category="revit">
+              <a href="./assets/images/project-2.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MEP</h3>
+
+                <p class="project-category">Revit</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="autocad">
+              <a href="./assets/images/project-3.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Electrical</h3>
+
+                <p class="project-category">AutoCAD</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="revit">
+              <a href="./assets/images/project-4.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MEP</h3>
+
+                <p class="project-category">Revit</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="revit">
+              <a href="./assets/images/project-5.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Electrical</h3>
+
+                <p class="project-category">Revit</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="revit">
+              <a href="./assets/images/project-6.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Architecture</h3>
+
+                <p class="project-category">Revit</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="revit">
+              <a href="./assets/images/project-1.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Architecture</h3>
+
+                <p class="project-category">Revit</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="embedded system">
+              <a href="./assets/images/project-8.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">FarmBot: Precision Agriculture Robot Design & Implementation</h3>
+
+                <p class="project-category">Embedded System & IOT</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pcb design">
+              <a href="./assets/images/pcb 3.jpeg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pcb 3.jpeg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pyramid UNO Microcontroller</h3>
+
+                <p class="project-category">PCB Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pcb design">
+              <a href="./assets/images/pcb 2.jpeg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pcb 2.jpeg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ESP-23 Microcontroller</h3>
+
+                <p class="project-category">PCB Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pcb design">
+              <a href="./assets/images/pcb 1.jpeg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pcb 1.jpeg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mechaniacl Keyboard</h3>
+
+                <p class="project-category">PCB Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="embedded system">
+              <a href="./assets/images/emb 1.jpeg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/emb 1.jpeg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IOT</h3>
+
+                <p class="project-category">Embedded System</p>
+
+                
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="autocad">
+              <a href="./assets/images/mech1.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mech1.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mechaniacl</h3>
+
+                <p class="project-category">AutoCAD</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="achivements" data-page="achivements">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Certificate</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Awards</button>
+            </li>
+
+            
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Certificate</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Awards</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="certificate">
+              <a href="./assets/images/nm.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nm.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Internet of things | industry(4.0)</h3>
+
+                <p class="project-category">Tamil Nadu Skill Development Corporation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="certificate">
+              <a id="download-pdf" href="./assets/images/Udemy.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>               
+
+                  <img src="./assets/images/Udemy.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Revit MEP | AutoCAD Electrical</h3>
+
+                <p class="project-category">Udemy</p>
+
+              </a>
+            </li>
+
+              <li class="project-item  active" data-filter-item data-category="certificate">
+                <a href="./assets/images/google.jpg">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/google.jpg" alt="brawlhalla" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Digital Marketting</h3>
+  
+                  <p class="project-category">Google</p>
+  
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="certificate">
+              <a href="./assets/images/nlc.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nlc.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">230/11kV Substation Operation & Electrical Equipment Testing in Mine - II</h3>
+
+                <p class="project-category">NLC India Limited</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="certificate">
+              <a href="./assets/images/accenture.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/accenture.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Strategy Consulting Virtual Experience</h3>
+
+                <p class="project-category">Accenture</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="certificate">
+              <a href="./assets/images/SkillUp.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/SkillUp.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Robotic process Automation</h3>
+
+                <p class="project-category">SkillUP</p>
+
+              </a>
+            </li>
+<!--
+        - #awards
+      -->
+            <li class="project-item  active" data-filter-item data-category="awards">
+              <a href="./assets/images/Rajya-Puraskar.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Rajya-Puraskar.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AWARD OF RAJYA PURASKAR FOR SCOUTS AND GUIDES </h3>
+
+                <p class="project-category">Presented by The Governor of Tamil Nadu, India- 2018</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="awards">
+              <a href="./assets/images/inspire.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/inspire.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">INSPIRE AWARD 2014 - 2015 </h3>
+
+                <p class="project-category">Department of Science and Technology Government of India, New Delhi</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="awards">
+              <a href="./assets/images/a3.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/a3.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">YOUNG STUDENT SCIENTISTS PROGRAM </h3>
+
+                <p class="project-category">Tamil Nadu State Council for Science & Technology, Chennai. 
+                  Government of Tamil Nadu, India- 2017
+                  </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="awards">
+              <a href="./assets/images/A4.jfif">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/A4.jfif" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RASHTRIYA MADHYAMIK SHIKSHA ABHIYAN </h3>
+
+                <p class="project-category">Government of Tamil Nadu, India First Place, Science Expo - 2017.</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #YOUTUBE
+      -->
+
+      <article class="YouTube" data-page="youtube">
+
+        <header>
+          <br><br>
+          <h4 class="h3 article-title">Siva's Spark Studio - YouTube Channel</h4>
+        </header>
+
+        <section class="about-text justified">
+          <h4>Welcome to Sivaa's Spark Studio!</h4>
+        </header>
+          <p>
+            Your go-to channel for mastering AutoCAD Electrical, Revit MEP, Architecture, and 
+            Structural design. Tailored for students and professionals in the fields of electrical 
+            engineering and building design.
+          </p>
+        
+          
+        </section>
+
+        <section class="blog-posts">
+          <h4 class="h3 article-title">Milestones</h4>
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://youtu.be/YRMqy_yry98?si=Sz5zvW8lvGY8FnNj">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/youtube 1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">YouTube</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="Jul 12, 2024">Jul 12, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">AutoCAD Electrical Basics for Beginners</h3>
+
+                  
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://youtu.be/-yi_2H87bbA?si=BS3CMvw-RbNBEpuo">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/youtube 2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">YouTube</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="Oct 1, 2024">Oct 1, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Master Revit Architecture: From Beginner to Expert</h3>
+
+                  
+                </div>
+
+              </a>
+            </li>           
+
+          </ul>
+
+          
+          <section class="about-text justified">
+            <h4 class="h3 article-title">Why Subscribe?</h4>
+          </header>
+            <p>
+              <li>- industry-standard tools like AutoCAD and Revit across electrical, architecture, and structural disciplines.</li> 
+              <li>- Detailed tutorials, practical examples, and project-based learning.</li>
+              <li>- Regular content updates for continuous learning.</li>
+            </p>
+          
+            
+          </section>
+
+          <section class="about-text justified"></section>
+            <h4 class="h3 article-title">Visit the Channel</h4>
+          </header>
+
+          <a href="https://www.youtube.com/@SPark_Studio_S" target="_blank">
+          
+          <li class="service-item">
+            <div class="service-icon-box">
+
+              <figure>
+               
+                  <img src="./assets/images/channel-logo.png" width="65" alt="YouTube Channel Logo" class="rounded-image">
+                
+              </figure>
+              
+              
+            
+            </div>
+            <div class="service-content-box">
+              
+              <h4 class="h3 service-item-title">Siva's SPark Studio </h4>
+          
+              <p class=" h5 timeline-text">
+                Your gatway to Engineering Brilliance.
+              </p>
+            </div>
+          </li>
+        </a>
+
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h3 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <figure>
+              <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d79.3199985!3d10.4232271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b000093eb3cbfc9%3A0xe8d7c5789de8fb3d!2sPattukkottai%2C%20Tamil%20Nadu%20614601!5e0!3m2!1sen!2sin!4v1647608789441!5m2!1sen!2sin"
+                  width="400" height="300" loading="lazy"></iframe>
+          </figure>
+      </section>     
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:sivabalant38@gmail.com" method="POST" enctype="text/plain" class="form" data-form>
+
+            <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+        
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+        
+            <button class="form-btn" type="submit" data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+            </button>
+        
+        </form>
+        
+        </section><br>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/@SPark_Studio_S" class="social-link" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+        </li>
+        
+        <li class="social-item">
+            <a href="https://github.com/Sivabalan-T" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
+    
+           <li class="social-item">
+              <a href="https://linkedin.com/in/sivabalant03" class="social-link" target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+          </li>
+      
+          <li class="social-item">
+              <a href="https://www.twitter.com/@Sivabalan_t38" class="social-link" target="_blank">
+                  <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+          </li>
+         
+        </ul>
+
+      </article>
+
+
+      
+
+    </div>
+
+    
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+<footer class="footer">
+   <p class="footer__copy">&#169; 2024 Sivabalan. All rights reserved</p>
+   <p>Made with <span class="heart-container"><span class="blue-heart">✨💙</span></span></p>
+    <p class="quote-display"></p>
+   <p class="quote-display"></p> <!-- This will show the random quote -->
+</footer>
+
+
+</html>
+
